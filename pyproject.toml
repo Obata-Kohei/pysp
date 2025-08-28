@@ -1,7 +1,11 @@
 [project]
 name = "pysp"
 version = "0.1.0"
-description = "Add your description here"
+description = "learn signal processing with python"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "scipy>=1.16.1",
+]
