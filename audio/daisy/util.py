@@ -82,3 +82,4 @@ class Formant:
         b = [self.gain * (1 - r)]
         a = [1, -2 * r * np.cos(theta), r**2]
         return b, a
+    
